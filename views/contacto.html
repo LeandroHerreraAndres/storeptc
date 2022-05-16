@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cards Store</title>
+        <link rel="shortcut icon" href="../img/ico/icono.png">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"> 
+    </head>
+
+
+    <body>
+
+        <div class="cont">
+
+            <header class="cabezera">
+                <a href="index.html"><img src="../img/logo.png" alt="logo" class="head__logo"></a>
+                <nav class= "nav__list">
+                    <ul class="nav__list__ul">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="quienesSomos.html">Nosotros</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="ofertas.html">Ofertas</a></li>
+                        <li class="estado"><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+            <main>
+                <section class="main__form">
+                    <h1>Contactate con nosotros llenando los siguientes datos:</h1>
+                    <form action="validar.php" method="get" enctype="multipart/form-data">
+                        <div class="form1">
+                            <label for="nombre">Nombre:
+                                    <input type="text" name="nombre" id=""><br>
+                            </label>           
+                            <label for="email">Email:
+                                <input type="email" placeholder="aaa@gmail.com" name="email"><br>
+                            </label>
+                            <label for="telefono">Telefono:
+                                <input type="tel" name="telefono" id=""><br>
+                            </label>
+                            <label for="direccion">Dirección:
+                                <input type="text" name="direccion" id=""><br>
+                            </label>
+                            <label for="edad">Edad
+                                <input type="number" name="edad"><br>
+                            </label>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="form2">
+                            <label for="Observaciones"> Dejanos tu opinion:<br>
+                                <textarea placeholder="Escribe Aquí"></textarea>
+                            </label> <br>
+                            <div>Queres recibir información sobre nosotros?
+                            <input type="checkbox" name="acepta" value="1"></div>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Resetear">
+                        </div>
+                    </form>
+                </section>
+            </main>
+
+
+            <footer class="navBackground">
+                <div class="footer__div">
+                    <img src="../img/logo.png" alt="logo">
+                    <div class="pie">
+                        <a href="">Colavora</a>
+                        <a href="">Aviso de Privacidad</a>
+                        <p>© 1999-2022</p>
+                        <p>TODOS LOS DERECHOS RESERVADOS</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
