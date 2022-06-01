@@ -1,0 +1,40 @@
+li {
+	a {
+		text-decoration: none;
+		font-size: 1.5vw;
+		color: aliceblue;
+		border-radius: 20%;
+		font-family: $font;
+		&:hover {
+			color: black;
+			background-color: $bg-color;
+		}
+	}
+}
+
+.logo {
+	height: 50%;
+}
+
+.navegador {
+	display: flex;
+	flex-direction: row;
+}
+.nav {
+	display: flex;
+	justify-content: end;
+}
+.label {
+	display: none !important;
+}
+.respmenu {
+	input[type="checkbox"] {
+		display: none;
+	}
+	.fa-bars {
+		display: none;
+	}
+	.fa-times {
+		display: none;
+	}
+}

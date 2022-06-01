@@ -1,0 +1,18 @@
+form {
+	font-size: 2em;
+	background-color: $bg-color;
+	margin-top: 0;
+	display: inline-block;
+	width: 30vw;
+	position: relative;
+	font-family: $font;
+	border-radius: 18px;
+	box-shadow: -10px 10px 18px rgba(0, 0, 0, 0.542);
+	min-width: 300px;
+}
+.form1 {
+	text-align: right;
+}
+.form2 {
+	text-align: center;
+}
