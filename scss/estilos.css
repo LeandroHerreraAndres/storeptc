@@ -326,4 +326,8 @@ footer {
             flex-direction: column;
   }
 }
+
+h2{
+  font-size: 3rem !important;
+}
 /*# sourceMappingURL=estilos.css.map */

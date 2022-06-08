@@ -1,196 +1,186 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   overflow-x: hidden;
-  background-image: url(../img/fondo4.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  background: linear-gradient(to bottom, #0000008f, #ffdc16, #FF7315, red) !important; }
 
 html {
   font-size: 62.5%;
-  font-family: 'Varela Round', sans-serif;
-}
+  font-family: "Varela Round"; }
+
+footer img, header img {
+  width: 5vw !important; }
+
+h1, h2 {
+  background-color: rgba(156, 156, 156, 0.712);
+  font-size: 1rem;
+  font-family: "Varela Round";
+  border-radius: 18px;
+  box-shadow: -10px 10px 18px rgba(0, 0, 0, 0.542);
+  padding: 5px;
+  margin: 5vh !important;
+  margin-top: 51px; }
+
+iframe {
+  width: 50vw;
+  height: 30vw; }
+
+@media screen and (max-width: 768px) {
+  .navegador {
+    justify-content: center;
+    align-items: center; }
+  .nav {
+    justify-content: center !important; }
+  li a {
+    padding: 2vw !important; }
+  .div__ofertas {
+    flex-direction: column; }
+  li {
+    margin: 0; } }
 
 li a {
   text-decoration: none;
   font-size: 1.5vw;
   color: aliceblue;
   border-radius: 20%;
-  font-family: 'Varela Round', sans-serif;
-}
-
-li a:hover {
-  color: black;
-  background-color: #ff7519;
-}
+  font-family: "Varela Round", sans-serif; }
+  li a:hover {
+    color: black;
+    background-color: #FF7315; }
 
 .logo {
-  height: 50%;
-}
+  height: 50%; }
 
-img {
-  width: 5vw !important;
-}
+.navegador {
+  display: flex;
+  flex-direction: row; }
+
+.nav {
+  display: flex;
+  justify-content: end; }
+
+.label {
+  display: none !important; }
+
+.respmenu input[type="checkbox"] {
+  display: none; }
+
+.respmenu .fa-bars {
+  display: none; }
+
+.respmenu .fa-times {
+  display: none; }
+
+.foo {
+  height: 25vh; }
+
+footer {
+  height: 100%; }
+
+.pie {
+  padding: 0 !important;
+  margin: 0 !important; }
 
 .carousel-item img {
   margin: 0;
-  width: 50vw !important;
-}
-
-.navegador {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-}
-
-.label {
-  display: none !important;
-}
-
-.respmenu input[type="checkbox"] {
-  display: none;
-}
-
-.respmenu .fa-bars {
-  display: none;
-}
-
-.respmenu .fa-times {
-  display: none;
-}
-
-h1 {
-  background-color: rgba(156, 156, 156, 0.712);
-  font-size: 1rem;
-  border-radius: 18px;
-  font-family: 'Varela Round', sans-serif;
-  -webkit-box-shadow: -10px 10px 18px rgba(0, 0, 0, 0.542);
-          box-shadow: -10px 10px 18px rgba(0, 0, 0, 0.542);
-  padding: 5px;
-  margin: 5vh !important;
-  margin-top: 51px;
-}
-
-iframe {
-  width: 50vw;
-  height: 30vw;
-}
-
-.card {
-  border: none !important;
-}
-
-.card img {
-  width: 60vw !important;
-  margin-top: 10vh !important;
-  margin-bottom: 5vh !important;
-}
-
-.tarjeta .card-img-overlay {
-  margin-top: 8vh !important;
-  font-size: 2vw !important;
-}
+  width: 50vw !important; }
 
 .div__tabla {
   grid-area: tabla;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.div__tabla h1 {
-  text-align: center;
-  width: 50vw;
-}
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .div__tabla h1 {
+    text-align: center;
+    width: 50vw; }
 
 table {
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   font-size: 2rem;
   margin: 50px;
   background-color: #f4f4f493;
   padding: 25px;
-  border-radius: 18px;
-}
+  border-radius: 18px; }
 
 td {
   border: #000000 3px solid;
   padding: 5px;
-  text-align: center;
-}
+  text-align: center; }
 
 .galeria img {
   padding: 2vw;
   width: 20vw !important;
-  -webkit-filter: grayscale(100);
-          filter: grayscale(100);
-}
-
-.galeria img:hover {
-  -webkit-filter: none;
-          filter: none;
-  -webkit-transition: .5s;
-  transition: .5s;
-}
+  filter: grayscale(100); }
+  .galeria img:hover {
+    filter: none;
+    transition: .5s; }
 
 .galeria__grande img {
-  width: 30vw !important;
-}
+  width: 30vw !important; }
+
+.nosotros__pie {
+  height: 200px; }
+
+.nos__div {
+  font-size: 3vw;
+  font-family: "Varela Round";
+  border-radius: 18px;
+  background-color: rgba(156, 156, 156, 0.712);
+  border-radius: 18px;
+  box-shadow: -10px 10px 18px rgba(0, 0, 0, 0.542);
+  margin: 2vw;
+  padding: 1vw; }
+
+.torneo img {
+  height: 30vw !important;
+  border-radius: 50%;
+  margin: 1vw; }
+
+h2 {
+  font-size: 2vw !important;
+  padding: 0 1vw 0 1vw;
+  margin: 2vw; }
 
 form {
   font-size: 2em;
-  background-color: rgba(241, 122, 36, 0.518);
+  background-color: #FF7315;
   margin-top: 0;
   display: inline-block;
   width: 30vw;
   position: relative;
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   border-radius: 18px;
-  -webkit-box-shadow: -10px 10px 18px rgba(0, 0, 0, 0.542);
-          box-shadow: -10px 10px 18px rgba(0, 0, 0, 0.542);
-  min-width: 300px;
-}
+  box-shadow: -10px 10px 18px rgba(0, 0, 0, 0.542);
+  min-width: 300px; }
 
 .form1 {
-  text-align: right;
-}
+  text-align: right; }
 
 .form2 {
-  text-align: center;
-}
+  text-align: center; }
+
+.enviar, .resetear {
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+  background-color: yellow;
+  padding: 1vw; }
+
+.resetear {
+  background-color: red; }
+
+.div__ofertas img:hover {
+  transform: perspective(700px) scale(1.2);
+  transform-origin: center center;
+  transition: 1s; }
 
 .oferta img {
   width: 30vw !important;
-  padding: 2vw;
-}
+  padding: 2vw; }
 
 .oferta p {
   color: #ffffff;
@@ -198,132 +188,6 @@ form {
   background-color: #FF7315;
   text-align: center;
   border-radius: 18px;
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   font-size: 3rem;
-  -webkit-text-stroke: 1px #000000;
-}
-
-.foo {
-  height: 25vh;
-}
-
-footer {
-  height: 100%;
-}
-
-.div__ofertas img:hover {
-  -webkit-transform: perspective(700px) scale(1.2);
-          transform: perspective(700px) scale(1.2);
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-@media screen and (max-width: 768px) {
-  .navegador {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .nav {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .respmenu {
-    color: white;
-    position: relative;
-    background: #123456;
-    min-height: 48px;
-  }
-  .respmenu input[type="checkbox"] {
-    position: absolute;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    right: 0;
-    top: 0;
-    width: 48px;
-    height: 48px;
-    opacity: 0;
-  }
-  .respmenu .fa-bars {
-    position: absolute;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    right: 0;
-    top: 0;
-    width: 48px;
-    height: 48px;
-    font-size: 48px;
-    pointer-events: none;
-  }
-  .respmenu .fa-times {
-    position: absolute;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    right: 0;
-    top: 0;
-    width: 48px;
-    height: 48px;
-    font-size: 48px;
-    pointer-events: none;
-  }
-  .respmenu nav {
-    display: none;
-  }
-  .respmenu input:checked ~ nav {
-    display: block;
-  }
-  .respmenu input:checked ~ .fa-bars {
-    display: none;
-  }
-  .respmenu input:not(:checked) ~ .fa-times {
-    display: none;
-  }
-  .label {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    display: inline-block !important;
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    font-weight: bold;
-    text-align: center;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-  }
-  .label:hover {
-    background: grey;
-  }
-  input:checked ~ .label {
-    background: lightgrey;
-  }
-  .div__ofertas {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-/*# sourceMappingURL=estilos.css.map */
+  -webkit-text-stroke: 1px #000000; }

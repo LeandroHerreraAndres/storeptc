@@ -16,3 +16,16 @@ form {
 .form2 {
 	text-align: center;
 }
+
+.enviar{
+	color:black;
+    border-radius:20px;
+    border:1px solid black;
+	background-color: yellow;
+	padding: 1vw;
+}
+
+.resetear{
+	@extend .enviar;
+	background-color: red;
+}

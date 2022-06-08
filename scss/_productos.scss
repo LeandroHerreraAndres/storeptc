@@ -4,11 +4,13 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
 	h1 {
 		text-align: center;
 		width: 50vw;
 	}
 }
+
 table {
 	font-family: $font;
 	font-size: 2rem;
@@ -17,22 +19,26 @@ table {
 	padding: 25px;
 	border-radius: 18px;
 }
+
 td {
 	border: #000000 3px solid;
 	padding: 5px;
 	text-align: center;
 }
+
 .galeria {
 	img {
 		padding: 2vw;
 		width: 20vw !important;
 		filter: grayscale(100);
+
 		&:hover {
 			filter: none;
 			transition: .5s;
 		}
 	}
 }
+
 .galeria__grande {
 	img {
 		width: 30vw !important;
