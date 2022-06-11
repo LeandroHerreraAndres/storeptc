@@ -1,7 +1,7 @@
 li {
 	a {
 		text-decoration: none;
-		font-size: 1.5vw;
+		font-size: 2rem;
 		color: aliceblue;
 		border-radius: 20%;
 		font-family: $font;
@@ -19,6 +19,7 @@ li {
 .navegador {
 	display: flex;
 	flex-direction: row;
+	list-style: none;
 }
 .nav {
 	display: flex;
@@ -37,4 +38,10 @@ li {
 	.fa-times {
 		display: none;
 	}
+}
+li a{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5px;
 }

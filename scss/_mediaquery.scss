@@ -11,15 +11,33 @@
 	li {
 
 		a {
-			padding: 2vw !important;}
+			padding: 2vw !important;
+			font-size: 2.5rem !important;
 		}
-	
+	}
 	
 	.div__ofertas {
 		flex-direction: column;
 	}
-	li{
-		margin: 0;
+
+	ul{
+		display: flex !important;
+		justify-content: center !important;
+		align-items: center !important;
 	}
+	
+	header img, footer img{
+		width: 15vw !important;
+	}
+	.navegador {
+		display: flex;
+		flex-direction: row;
+		list-style: none;
+	}
+	.nav {
+		display: flex;
+		justify-content: end;
+	}
+
 	
 }
