@@ -13,6 +13,7 @@
 		width: 30vw !important;
 		padding: 2vw;
 	}
+
 	p {
 		color: #ffffff;
 		padding: 5px;
@@ -23,4 +24,23 @@
 		font-size: 3rem;
 		-webkit-text-stroke: 1px #000000;
 	}
+}
+
+.parrafo {
+	p {
+		font-size: 2vw !important;
+		margin: 10x !important;
+
+	}
+	h1{
+		font-size: 2vw;
+		text-align: center;
+	}
+
+}
+
+p img {
+	margin-right: 4vw !important;
+	float: left;
+	margin:5px;
 }

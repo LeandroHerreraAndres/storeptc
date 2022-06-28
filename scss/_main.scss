@@ -3,30 +3,34 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
 	overflow-x: hidden;
-	background: linear-gradient(to bottom, map-get($colores,negro),map-get($colores,amarillo),$bg-color,map-get($colores,rojo))!important;
-	
+	background: linear-gradient(to bottom, map-get($colores, negro), map-get($colores, amarillo), $bg-color, map-get($colores, rojo)) !important;
+
 }
+
 html {
-	@include font(62.5%,"Varela Round");
+	@include font(62.5%, "Varela Round");
 }
 
 
-footer img, header img {
+footer img{
 	width: 10vw !important;
 }
 
 
-h1,h2 {
+h1,
+h2 {
 	background-color: rgba(156, 156, 156, 0.712);
-	@include font(1rem,"Varela Round");
+	@include font(1rem, "Varela Round");
 	border-radius: 18px;
 	box-shadow: -10px 10px 18px rgba(0, 0, 0, 0.542);
 	padding: 5px;
 	margin: 5vh !important;
 	margin-top: 51px;
 }
+
 iframe {
 	width: 50vw;
 	height: 30vw;
